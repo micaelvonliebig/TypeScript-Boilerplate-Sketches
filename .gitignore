@@ -1,0 +1,39 @@
+# -----------------------------
+# Node.js + TypeScript .gitignore
+# -----------------------------
+
+# Dependências
+node_modules/
+
+# Saída de build
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Configurações de editor/IDE
+.vscode/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Itens que DEVEM ser versionados
+# -----------------------------
+# package.json
+# package-lock.json
+# tsconfig.json
+# eslint.config.js
+# .prettierrc
